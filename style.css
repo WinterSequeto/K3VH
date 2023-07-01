@@ -9,7 +9,7 @@
 
 :root {
     --cor1: #fff;
-    --cor2: red;
+    --cor2: #DE1200;
     --cor3: black;
     --cor4: rgb(22, 22, 22);
     --cor5: rgb(15,15,15);
@@ -55,7 +55,7 @@ nav a {
 }
 
 nav :hover{
-    background-color: var(--cor1);
+    background-color: var(--cor2);
     color: var(--cor5);
     text-decoration: underline;
     padding: 5px;
