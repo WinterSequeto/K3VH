@@ -36,10 +36,20 @@ header {
 header img {
     text-align: center;
     margin: 20px;
+    width: 70px;
+    height: 70px;
+    text-align: left;
+}
+
+header div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
 }
 
 nav {
-
     padding: 5px;
     text-align: center;
 }
@@ -55,7 +65,7 @@ nav a {
 }
 
 nav :hover{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     color: var(--cor5);
     text-decoration: underline;
     padding: 5px;
@@ -76,6 +86,30 @@ main h1 {
     font-family: var(--fonte-home);
     text-align: center;
     padding: 20px;
+}
+
+main img {
+    width: 400px;
+    height: 300px;
+    padding-right: 10%;
+    float: right;
+}
+
+main h2 {
+    color: var(--cor1);
+    margin: 10px;
+    padding: 10px;
+    font-family: var(--fonte-home);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+main p {
+    color: var(--cor1);
+    margin: 10px;
+    padding: 10px;
+    font-family: var(--fonte-padrao);
+    line-height: 1.4em;
 }
 
 .sobre {
